@@ -15,7 +15,7 @@ TagManager:
   - 
   - Player
   - Ground
-  - 
+  - Background
   - 
   - 
   - 
@@ -41,12 +41,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 1417481815
+    locked: 0
   - name: MidGround
     uniqueID: 860438157
+    locked: 0
+  - name: ExitLevel
+    uniqueID: 609190625
     locked: 0
   - name: ForeGround
     uniqueID: 1322541209
     locked: 0
   - name: Entity
     uniqueID: 1947100525
+    locked: 0
+  - name: ExitDoor
+    uniqueID: 3350188633
     locked: 0
