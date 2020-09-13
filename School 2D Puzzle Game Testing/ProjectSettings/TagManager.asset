@@ -50,6 +50,9 @@ TagManager:
   - name: ExitLevel
     uniqueID: 609190625
     locked: 0
+  - name: Button
+    uniqueID: 2821058801
+    locked: 0
   - name: ForeGround
     uniqueID: 1322541209
     locked: 0
