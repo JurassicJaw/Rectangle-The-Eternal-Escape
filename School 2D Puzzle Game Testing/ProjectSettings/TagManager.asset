@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Button
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - Player
   - Ground
   - Background
-  - 
+  - Button
   - 
   - 
   - 
@@ -61,4 +62,7 @@ TagManager:
     locked: 0
   - name: ExitDoor
     uniqueID: 3350188633
+    locked: 0
+  - name: Roof
+    uniqueID: 2027817867
     locked: 0
