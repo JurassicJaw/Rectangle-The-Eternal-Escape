@@ -66,3 +66,6 @@ TagManager:
   - name: Roof
     uniqueID: 2027817867
     locked: 0
+  - name: GLaDOS
+    uniqueID: 2002390113
+    locked: 0
