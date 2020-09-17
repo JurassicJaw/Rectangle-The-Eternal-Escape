@@ -32,10 +32,6 @@ public class PauseMenu : MonoBehaviour
         }
     }
 
-
-
-
-
 //Resumes the game
     public void Resume()
     {
@@ -43,10 +39,6 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         GameIsPaused = false;
     }
-
-
-
-
 
 //Pauses the game
     void Pause()
@@ -56,17 +48,12 @@ public class PauseMenu : MonoBehaviour
         GameIsPaused = true;
     }
 
-
-
-
-
 //Loads the start menu
     public void LoadMenu()
     {
         Time.timeScale = 1f;
         LoadStartMenu();
     }
-
 
     public void LoadStartMenu()
     {
@@ -84,10 +71,6 @@ public class PauseMenu : MonoBehaviour
         //Loads the scene
         SceneManager.LoadScene(levelIndex);
     }
-
-
-
-
 
 //Quits the game when the "Quit" button is pressed
     public void QuitGame()

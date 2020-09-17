@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenuLevel2 : MonoBehaviour
 {
+
     public Animator transition;
     public float transitionTime = 1f;
 
@@ -31,10 +32,6 @@ public class PauseMenuLevel2 : MonoBehaviour
         }
     }
 
-
-
-
-
     //Resumes the game
     public void Resume()
     {
@@ -42,10 +39,6 @@ public class PauseMenuLevel2 : MonoBehaviour
         Time.timeScale = 1f;
         GameIsPaused = false;
     }
-
-
-
-
 
     //Pauses the game
     void Pause()
@@ -55,17 +48,12 @@ public class PauseMenuLevel2 : MonoBehaviour
         GameIsPaused = true;
     }
 
-
-
-
-
     //Loads the start menu
     public void LoadMenu()
     {
         Time.timeScale = 1f;
         LoadStartMenu();
     }
-
 
     public void LoadStartMenu()
     {
@@ -75,7 +63,7 @@ public class PauseMenuLevel2 : MonoBehaviour
     IEnumerator LoadLevel(int levelIndex)
     {
         //Plays the animation
-        transition.SetTrigger("Start");
+        transition.SetTrigger("Start2");
 
         //Waits
         yield return new WaitForSeconds(transitionTime);
@@ -84,14 +72,9 @@ public class PauseMenuLevel2 : MonoBehaviour
         SceneManager.LoadScene(levelIndex);
     }
 
-
-
-
-
     //Quits the game when the "Quit" button is pressed
     public void QuitGame()
     {
         Application.Quit();
     }
 }
-
