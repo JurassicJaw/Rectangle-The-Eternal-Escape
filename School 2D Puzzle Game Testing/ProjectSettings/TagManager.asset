@@ -69,3 +69,6 @@ TagManager:
   - name: GLaDOS
     uniqueID: 2002390113
     locked: 0
+  - name: Acid
+    uniqueID: 3075383317
+    locked: 0
