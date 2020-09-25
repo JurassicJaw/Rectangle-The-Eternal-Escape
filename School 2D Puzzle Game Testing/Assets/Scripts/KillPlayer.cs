@@ -13,4 +13,10 @@ public class KillPlayer : MonoBehaviour
             col.transform.position = spawnPoint.position;
     }
 
+    private void OnTriggerEnter2D(Collider2D coll)
+    {
+        if (coll.transform.CompareTag("Player"))
+            coll.transform.position = spawnPoint.position;
+    }
+
 }

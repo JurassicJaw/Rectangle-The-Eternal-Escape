@@ -157,7 +157,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.49653625}
@@ -183,7 +183,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 6200000, guid: eff3b9b53e4f97847a8121b1c3e8c5ea, type: 2}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1}
@@ -246,15 +246,15 @@ MonoBehaviour:
   m_UseRendererSilhouette: 1
   m_CastsShadows: 1
   m_SelfShadows: 0
-  m_ApplyToSortingLayers: 8d3e49336d650e749960d44e570e7d54
+  m_ApplyToSortingLayers: 8d3e49336d650e749960d44e570e7d54610c5a77
   m_ShapePath:
   - {x: -1, y: 2, z: 0}
   - {x: -1, y: -2, z: 0}
   - {x: 1, y: -2, z: 0}
   - {x: 1, y: 2, z: 0}
-  m_ShapePathHash: -107612907
+  m_ShapePathHash: 1846305965
   m_Mesh: {fileID: 0}
-  m_InstanceId: -2892
+  m_InstanceId: -28672
 --- !u!114 &4026135146956605415
 MonoBehaviour:
   m_ObjectHideFlags: 0
