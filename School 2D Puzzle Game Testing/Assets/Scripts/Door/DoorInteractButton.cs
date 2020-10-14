@@ -39,6 +39,7 @@ public class DoorInteractButton : MonoBehaviour
             door.OpenDoor();
             Debug.Log("Door Opened");
             timer = 1f;
+            SoundManagerScript.PlaySound ("ButtonPress");
         }
     }
 

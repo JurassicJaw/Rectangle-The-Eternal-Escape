@@ -14,6 +14,7 @@ public class SoundManagerScript : MonoBehaviour
         GladosTalkOne = Resources.Load<AudioClip> ("Oh_Its_You");
         ButtonPressed = Resources.Load<AudioClip>("ButtonPress");
 
+        audioSrc = GetComponent<AudioSource>();
 
     }
 
