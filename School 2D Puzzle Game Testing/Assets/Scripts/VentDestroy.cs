@@ -6,7 +6,7 @@ public class VentDestroy : MonoBehaviour
 {
 
     public bool VentGone;
-    public Animator anim;
+    public Collider2D coll;
 
     public void BrokeVent()
     {
@@ -15,8 +15,9 @@ public class VentDestroy : MonoBehaviour
         {
             VentGone = true;
             Debug.Log("The vent is now gone.");
-            
-            
+            coll.gameObject.SetActive(false);
+
+
         }
     }
 
