@@ -110,10 +110,7 @@ MonoBehaviour:
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 2560
-  m_WhatIsCeiling:
-    serializedVersion: 2
-    m_Bits: 8192
+    m_Bits: 18944
   m_GroundCheck: {fileID: 5067235379232918865}
   m_CeilingCheck: {fileID: 5067235378715512030}
   m_CrouchDisableCollider: {fileID: 5067235377882773523}
@@ -257,7 +254,7 @@ MonoBehaviour:
   - {x: 1, y: 2, z: 0}
   m_ShapePathHash: 1846305965
   m_Mesh: {fileID: 0}
-  m_InstanceId: -25552
+  m_InstanceId: -28326
 --- !u!114 &4026135146956605415
 MonoBehaviour:
   m_ObjectHideFlags: 0

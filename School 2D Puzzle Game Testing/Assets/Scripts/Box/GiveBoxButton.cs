@@ -39,6 +39,7 @@ public class GiveBoxButton : MonoBehaviour
             gate.OpenGate();
             Debug.Log("Gate Opened");
             timer = 1f;
+            SoundManagerScript.PlaySound("ButtonPress");
         }
     }
 }

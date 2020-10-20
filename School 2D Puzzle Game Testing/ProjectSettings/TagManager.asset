@@ -21,7 +21,7 @@ TagManager:
   - Button
   - Epic PP Layer
   - Ceiling
-  - 
+  - Box
   - 
   - 
   - 
@@ -45,6 +45,12 @@ TagManager:
     locked: 0
   - name: Background
     uniqueID: 1417481815
+    locked: 0
+  - name: Cutscene#1 BadGuy
+    uniqueID: 4062180609
+    locked: 0
+  - name: Parallax BG
+    uniqueID: 2189184231
     locked: 0
   - name: MidGround
     uniqueID: 860438157
