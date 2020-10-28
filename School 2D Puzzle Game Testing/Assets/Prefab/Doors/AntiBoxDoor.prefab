@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5147212644955077025}
   - component: {fileID: 5147212644955077024}
   - component: {fileID: 5147212644955077039}
-  - component: {fileID: 5147212644955077038}
+  - component: {fileID: 3181632340709474480}
   m_Layer: 0
   m_Name: AntiBoxDoor
   m_TagString: Untagged
@@ -130,7 +130,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0116712, y: 4}
   m_EdgeRadius: 0
---- !u!114 &5147212644955077038
+--- !u!114 &3181632340709474480
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -139,10 +139,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5147212644955077026}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83fad749d3b802f4981d5e05da056bc2, type: 3}
+  m_Script: {fileID: 11500000, guid: 77a285c3e33e023468b386c5cc7a178e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 0}
+  boxSpawn: {fileID: 0}
 --- !u!1 &5147212645398715796
 GameObject:
   m_ObjectHideFlags: 0
