@@ -15,6 +15,8 @@ public class KillBox : MonoBehaviour
             col.transform.position = boxSpawn.position;
             crate.GetComponent<Rigidbody2D>().gravityScale = 0;
         }
+
+        
     }
 
     private void OnTriggerEnter2D(Collider2D coll)
@@ -24,7 +26,8 @@ public class KillBox : MonoBehaviour
             coll.transform.position = boxSpawn.position;
             crate.GetComponent<Rigidbody2D>().gravityScale = 0;
         }
-            
+
+         
     }
 
 }

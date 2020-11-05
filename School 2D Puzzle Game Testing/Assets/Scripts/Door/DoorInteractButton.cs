@@ -6,6 +6,7 @@ public class DoorInteractButton : MonoBehaviour
 {
 
     [SerializeField] private GameObject doorGameObject;
+    [SerializeField] private GameObject ExitLight;
     private IDoor door;
     private float timer;
 
@@ -39,6 +40,7 @@ public class DoorInteractButton : MonoBehaviour
             door.OpenDoor();
             Debug.Log("Door Opened");
             timer = 1f;
+            ExitLight.gameObject.SetActive(true);
             SoundManagerScript.PlaySound ("ButtonPress");
         }
     }
