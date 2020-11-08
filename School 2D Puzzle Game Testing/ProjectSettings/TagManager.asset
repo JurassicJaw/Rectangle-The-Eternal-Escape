@@ -82,6 +82,3 @@ TagManager:
   - name: Doors
     uniqueID: 1059504663
     locked: 0
-  - name: BoxSpawner
-    uniqueID: 2310365159
-    locked: 0
