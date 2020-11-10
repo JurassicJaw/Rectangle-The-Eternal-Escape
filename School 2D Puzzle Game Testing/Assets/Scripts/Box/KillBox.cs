@@ -21,7 +21,7 @@ public class KillBox : MonoBehaviour
 
         
 
-            col.gameObject.SetActive(false);
+            
 
     }
 
@@ -33,10 +33,6 @@ public class KillBox : MonoBehaviour
             coll.transform.position = boxSpawn.position;
             crate.GetComponent<Rigidbody2D>().gravityScale = 0;
         }
-
-         
-
-            coll.gameObject.SetActive(false);
 
     }
 
