@@ -82,3 +82,6 @@ TagManager:
   - name: Doors
     uniqueID: 1059504663
     locked: 0
+  - name: Menu
+    uniqueID: 3126783423
+    locked: 0
