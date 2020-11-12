@@ -5,20 +5,21 @@ using UnityEngine;
 public class MenuPortal : MonoBehaviour
 {
 
-    public Transform portalExit;
+    public Transform portalExitPlayer;
+    public Transform portalExitBox;
 
     private void OnCollisionEnter2D(Collision2D col)
     {
         if (col.transform.CompareTag("Player"))
 
         {
-            col.transform.position = portalExit.position;
+            col.transform.position = portalExitPlayer.position;
         }
 
         if (col.transform.CompareTag("Crate"))
 
         {
-            col.transform.position = portalExit.position;
+            col.transform.position = portalExitBox.position;
         }
 
 
@@ -32,13 +33,13 @@ public class MenuPortal : MonoBehaviour
         if (coll.transform.CompareTag("Player"))
 
         {
-            coll.transform.position = portalExit.position;
+            coll.transform.position = portalExitPlayer.position;
         }
 
         if (coll.transform.CompareTag("Crate"))
 
         {
-            coll.transform.position = portalExit.position;
+            coll.transform.position = portalExitBox.position;
         }
 
     }
