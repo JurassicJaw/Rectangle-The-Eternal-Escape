@@ -5,6 +5,8 @@ using UnityEngine.Events;
 
 public class Interactable : MonoBehaviour
 {
+
+    public GameObject prompt;
     public bool isInRange;
     public KeyCode interactKey;
     public UnityEvent interactAction;
@@ -34,6 +36,7 @@ public class Interactable : MonoBehaviour
         {
             isInRange = true;
             Debug.Log("In Range");
+            prompt.gameObject.SetActive(true);
         }
     }
 
@@ -43,6 +46,8 @@ public class Interactable : MonoBehaviour
         {
             isInRange = false;
             Debug.Log("Out Of Range");
+            prompt.gameObject.SetActive(false);
+
         }
     }
 }
