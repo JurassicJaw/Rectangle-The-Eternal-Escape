@@ -41,7 +41,7 @@ public class DoorInteractButton : MonoBehaviour
             Debug.Log("Door Opened");
             timer = 1f;
             ExitLight.gameObject.SetActive(true);
-            SoundManagerScript.PlaySound ("ButtonPress");
+            SoundManagerScript.PlaySound("ButtonPress");
         }
     }
 

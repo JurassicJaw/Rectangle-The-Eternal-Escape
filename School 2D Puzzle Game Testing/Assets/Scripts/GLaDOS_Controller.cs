@@ -16,8 +16,19 @@ public class GLaDOS_Controller : MonoBehaviour
             isOn = true;
             Debug.Log("GLaDOS Is Now On");
             anim.SetBool("isOn", isOn);
+            StartCoroutine(ExecuteAfterTime(8));
+
+        }
+
+        IEnumerator ExecuteAfterTime(float time)
+        {
+            yield return new WaitForSeconds(time);
+
             SoundManagerScript.PlaySound("Oh_Its_You");
         }
+
+
+
     }
 
 
