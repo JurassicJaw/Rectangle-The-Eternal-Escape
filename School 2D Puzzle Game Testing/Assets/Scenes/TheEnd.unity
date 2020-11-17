@@ -223,16 +223,24 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: 7492026226387033299, guid: fb00e9ccb7e8d784f97b03c10861a112, type: 2}
     value: {fileID: 1872353119}
-  - key: {fileID: 1646613156501452976, guid: fb00e9ccb7e8d784f97b03c10861a112, type: 2}
-    value: {fileID: 427100033}
-  - key: {fileID: -2404311416004647048, guid: fb00e9ccb7e8d784f97b03c10861a112, type: 2}
+  - key: {fileID: 0}
     value: {fileID: 0}
   - key: {fileID: 0}
     value: {fileID: 0}
-  - key: {fileID: 4598376204147879204, guid: fb00e9ccb7e8d784f97b03c10861a112, type: 2}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 0}
     value: {fileID: 1872353118}
-  - key: {fileID: 1052092180218064537, guid: fb00e9ccb7e8d784f97b03c10861a112, type: 2}
-    value: {fileID: 427100029}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 1976017701034737510, guid: fb00e9ccb7e8d784f97b03c10861a112, type: 2}
+    value: {fileID: 1872353118}
+  - key: {fileID: -4454445107898654692, guid: fb00e9ccb7e8d784f97b03c10861a112, type: 2}
+    value: {fileID: 858173104}
+  - key: {fileID: -3177669330864831984, guid: fb00e9ccb7e8d784f97b03c10861a112, type: 2}
+    value: {fileID: 858173100}
+  - key: {fileID: 1156370528810005995, guid: fb00e9ccb7e8d784f97b03c10861a112, type: 2}
+    value: {fileID: 1302150133}
   m_ExposedReferences:
     m_References:
     - b8c6d4f49675e2b428f2ec39617237d8: {fileID: 1872353118}
@@ -250,7 +258,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &427100029
+--- !u!1 &858173100
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -258,10 +266,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 427100032}
-  - component: {fileID: 427100031}
-  - component: {fileID: 427100030}
-  - component: {fileID: 427100033}
+  - component: {fileID: 858173103}
+  - component: {fileID: 858173102}
+  - component: {fileID: 858173101}
+  - component: {fileID: 858173104}
   m_Layer: 5
   m_Name: Text#2
   m_TagString: Untagged
@@ -269,13 +277,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &427100030
+--- !u!114 &858173101
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 427100029}
+  m_GameObject: {fileID: 858173100}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -289,7 +297,37 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Placeholder: For A Good Title'
+  m_text: 'Player voiced by James Wheeler
+
+
+
+
+
+
+    Villan voiced by Mathew Baron
+
+
+
+
+
+
+    Art
+    made by James Wheeler
+
+
+
+
+
+
+    Story made by James Wheeler
+
+
+
+
+
+
+    Levels
+    designed by James Wheeler'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -324,7 +362,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 1024
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -358,21 +396,21 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &427100031
+--- !u!222 &858173102
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 427100029}
+  m_GameObject: {fileID: 858173100}
   m_CullTransparentMesh: 0
---- !u!224 &427100032
+--- !u!224 &858173103
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 427100029}
+  m_GameObject: {fileID: 858173100}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -382,17 +420,17 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 477}
-  m_SizeDelta: {x: 921.8616, y: 70.90616}
+  m_AnchoredPosition: {x: 0, y: 1050.7}
+  m_SizeDelta: {x: 921.8616, y: 1474.3312}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!95 &427100033
+--- !u!95 &858173104
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 427100029}
+  m_GameObject: {fileID: 858173100}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 0}
@@ -519,6 +557,50 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!1 &1302150133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1302150135}
+  - component: {fileID: 1302150134}
+  m_Layer: 0
+  m_Name: MainMenu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1302150134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302150133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 959ed027046849e409f077d5ae7efbb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newLevel: __StartMenu
+--- !u!4 &1302150135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302150133}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -298.82315, y: 1.477272, z: -1681.3523}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1691066530
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,7 +734,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Thank You For Playing
+  m_text: 'Placeholder: For A Good Title
+
+
+
+
+
+
+
+
+
+
+    Thank You For Playing'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -687,7 +780,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 1024
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -745,8 +838,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 349}
-  m_SizeDelta: {x: 921.8616, y: 70.90616}
+  m_AnchoredPosition: {x: 0, y: 1050.7}
+  m_SizeDelta: {x: 921.8616, y: 1474.3019}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2129740611
 GameObject:
@@ -780,7 +873,7 @@ RectTransform:
   m_Children:
   - {fileID: 1691066531}
   - {fileID: 1872353122}
-  - {fileID: 427100032}
+  - {fileID: 858173103}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -7,6 +7,8 @@ public class PlayerMovement : MonoBehaviour
 
     public CharacterController2D controller;
     public Animator anim;
+    public GameObject crouchShadow;
+    public GameObject standingShadow;
 
     public float runSpeed = 40f;
 
@@ -30,10 +32,14 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Crouch"))
         {
             crouch = true;
+            crouchShadow.gameObject.SetActive(true);
+            standingShadow.gameObject.SetActive(false);
         }
         else if (Input.GetButtonUp("Crouch"))
         {
             crouch = false;
+            crouchShadow.gameObject.SetActive(false);
+            standingShadow.gameObject.SetActive(true);
         }
 
     }
