@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ExitDoor : MonoBehaviour
 {
+    public int level;
 
     [SerializeField] private string newLevel;
 
@@ -14,9 +15,16 @@ public class ExitDoor : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             SceneManager.LoadScene(newLevel);
+
+            level ++;
+
+            Debug.Log(level);
+
         }
 
 
     }
+
+    
 
 }

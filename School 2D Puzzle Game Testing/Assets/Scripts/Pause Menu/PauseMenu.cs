@@ -9,7 +9,7 @@ public class PauseMenu : MonoBehaviour
     public Animator transition;
     public float transitionTime = 1f;
 
-
+    [SerializeField] private string Level;
 
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
@@ -51,26 +51,11 @@ public class PauseMenu : MonoBehaviour
 //Loads the start menu
     public void LoadMenu()
     {
+
         Time.timeScale = 1f;
-        LoadStartMenu();
+        SceneManager.LoadScene(Level);
     }
 
-    public void LoadStartMenu()
-    {
-        //Loads the start menu
-        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex - 1));
-    }
-    IEnumerator LoadLevel(int levelIndex)
-    {
-        //Plays the animation
-        transition.SetTrigger("Start");
-
-        //Waits
-        yield return new WaitForSeconds(transitionTime);
-
-        //Loads the scene
-        SceneManager.LoadScene(levelIndex);
-    }
 
 //Quits the game when the "Quit" button is pressed
     public void QuitGame()

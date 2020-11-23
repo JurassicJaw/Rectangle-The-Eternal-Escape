@@ -21,11 +21,29 @@ EditorBuildSettings:
     path: Assets/Scenes/Level2.unity
     guid: 586ebfb7cf3b12d499978141779b3be1
   - enabled: 1
+    path: Assets/Scenes/Level2 Acid Cutscene.unity
+    guid: 3a889a0253a285940836f0546904e5c2
+  - enabled: 1
+    path: Assets/Scenes/Level2 After Acid Cutscene.unity
+    guid: 582af588df49fc442aa13297bbf514c9
+  - enabled: 1
+    path: Assets/Scenes/Level2 Pit Cutscene.unity
+    guid: c8abddd3ce6d68d4b9f9361d4519e5e0
+  - enabled: 1
+    path: Assets/Scenes/Level2 After Pit Cutscene.unity
+    guid: ec52dd2e472a84742a9449a77e97a53c
+  - enabled: 1
     path: Assets/Scenes/Level3 Intro.unity
     guid: 7b09a56a21772ad479210ff32ecbf99e
   - enabled: 1
     path: Assets/Scenes/Level3.unity
     guid: 8450eef9ffd294245827d99df1eb088a
+  - enabled: 1
+    path: Assets/Scenes/Level3 TV Cutscene.unity
+    guid: a09cdd22e7abff646ba149fdb2e8b041
+  - enabled: 1
+    path: Assets/Scenes/Level3 after Cutscene.unity
+    guid: 980c0a20eaf55c044974730921df7c9c
   - enabled: 1
     path: Assets/Scenes/TheEnd.unity
     guid: 8d8820baa3a4f914cabb09a4496ddcaa

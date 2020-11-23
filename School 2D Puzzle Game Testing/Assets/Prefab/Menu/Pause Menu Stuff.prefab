@@ -36,7 +36,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 191.19998, y: 137.00002}
+  m_AnchoredPosition: {x: 274, y: 66}
   m_SizeDelta: {x: 134.72223, y: 81.05072}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1795318296
@@ -122,7 +122,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 856895875561761311}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: LoadStartMenu
+        m_MethodName: LoadMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -622,6 +622,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transition: {fileID: 7629291682708361576}
   transitionTime: 1
+  Level: __StartMenu
   pauseMenuUI: {fileID: 856895875808553114}
 --- !u!1 &856895875808553114
 GameObject:
@@ -762,7 +763,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 191.20001, y: -77.00001}
+  m_AnchoredPosition: {x: -220, y: -114.12501}
   m_SizeDelta: {x: 134.72223, y: 81.05072}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &856895875818682550
@@ -894,7 +895,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -187.5, y: -77}
+  m_AnchoredPosition: {x: -220, y: 2.2749996}
   m_SizeDelta: {x: 214.15857, y: 63.177673}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &856895875886383981
@@ -1235,7 +1236,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -187.5, y: 137}
+  m_AnchoredPosition: {x: -220, y: 111.275}
   m_SizeDelta: {x: 224.08813, y: 65.74138}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &856895876554768349
