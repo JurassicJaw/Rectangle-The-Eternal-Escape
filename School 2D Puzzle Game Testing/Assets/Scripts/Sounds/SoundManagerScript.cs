@@ -5,7 +5,7 @@ using UnityEngine;
 public class SoundManagerScript : MonoBehaviour
 {
 
-    public static AudioClip GladosTalkOne, ButtonPressed, Glass, blueLaserDeath;
+    public static AudioClip GladosTalkOne, ButtonPressed, Glass, blueLaserDeath, RR_clip;
     static AudioSource audioSrc;
     // Start is called before the first frame update
     void Start()
@@ -15,6 +15,7 @@ public class SoundManagerScript : MonoBehaviour
         ButtonPressed = Resources.Load<AudioClip>("ButtonPress");
         Glass = Resources.Load<AudioClip>("Glass_Break");
         blueLaserDeath = Resources.Load<AudioClip>("Blue Laser Death");
+        RR_clip = Resources.Load<AudioClip>("RR");
 
         audioSrc = GetComponent<AudioSource>();
 
@@ -42,6 +43,9 @@ public class SoundManagerScript : MonoBehaviour
                 break;
             case "Blue Laser Death":
                 audioSrc.PlayOneShot(blueLaserDeath);
+                break;
+            case "RR":
+                audioSrc.PlayOneShot(RR_clip);
                 break;
 
         }

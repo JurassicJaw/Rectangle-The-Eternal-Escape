@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class OptionsMenu : MonoBehaviour
 {
     public AudioMixer AudioMixer;
+    public AudioMixer VoiceMixer;
     Resolution[] resolutions;
     public TMP_Dropdown ResolutionDropdown;
 
@@ -47,6 +48,11 @@ public class OptionsMenu : MonoBehaviour
     public void SetVolume(float volume)
     {
         AudioMixer.SetFloat("volume", volume);
+    }
+
+    public void VoiceVolume(float volumeVoice)
+    {
+        VoiceMixer.SetFloat("volume", volumeVoice);
     }
 
 
