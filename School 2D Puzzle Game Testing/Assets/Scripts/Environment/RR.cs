@@ -8,6 +8,7 @@ public class RR : MonoBehaviour
     public GameObject image;
     public GameObject trigger;
     public GameObject Light;
+    public GameObject text;
 
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -17,6 +18,7 @@ public class RR : MonoBehaviour
             image.gameObject.SetActive(true);
             trigger.gameObject.SetActive(false);
             Light.gameObject.SetActive(true);
+            text.gameObject.SetActive(true);
             SoundManagerScript.PlaySound("RR");
         }
     }
